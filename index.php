@@ -1,7 +1,7 @@
 <?php
 
 
-function writeSecretSentence(string $param1, string $param2)
+function writeSecretSentence(string $param1, string $param2): string
 {
     
     $result = $param1 . ' s\'incline devant face à ' . $param2;
